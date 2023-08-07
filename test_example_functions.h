@@ -80,7 +80,7 @@ void RunTestImpl(Test test_func, const std::string& test_func_name) {
 
 #define RUN_TEST(func)  RunTestImpl((func), #func)
 
-// -------- Ќачало модульных тестов поисковой системы ----------
+// -------- Unit tests ----------
 
 // check adding new documents to server
 void TestAddingNewDocument();

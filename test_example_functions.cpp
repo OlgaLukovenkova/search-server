@@ -155,7 +155,7 @@ void TestComplexSearchDocument() {
     }
 }
 
-// Функция TestSearchServer является точкой входа для запуска тестов
+// TestSearchServer - launch tests
 void TestSearchServer() {
     RUN_TEST(TestAddingNewDocument);
     RUN_TEST(TestSearchDocument);
